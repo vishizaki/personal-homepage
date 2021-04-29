@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+.custom-shape-divider-bottom-1619663321 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1619663321 svg {
+  position: relative;
+  display: block;
+  width: calc(138% + 1.3px);
+  height: 199px;
+}
+
+.custom-shape-divider-bottom-1619663321 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.wave-background{
+  position: relative;
+  background-color: deepskyblue;
+  height: 70vh;
+}
