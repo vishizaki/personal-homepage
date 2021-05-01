@@ -1,27 +1,72 @@
 // Specific CSS for your home-page
-.custom-shape-divider-bottom-1619663321 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1619663321 svg {
-  position: relative;
-  display: block;
-  width: calc(138% + 1.3px);
-  height: 199px;
-}
-
-.custom-shape-divider-bottom-1619663321 .shape-fill {
-  fill: #FFFFFF;
-}
-
-.wave-background{
-  position: relative;
-  background-color: deepskyblue;
+.wave-brackground {
+  background-image: url('wave.svg');
   height: 70vh;
+  width: 100%;
+}
+svg {
+  width:100%;
+  display:block;
+}
+
+.main-container{
+  color: $blue;
+  margin-left: 6em;
+  margin-right: 6em;
+  position: relative;
+  height: 100%;
+}
+
+.home-header{
+  margin: 0;
+  position: absolute;
+  top: 25%;
+}
+
+.home-header h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.external-links {
+  display: inline-block;
+  i {
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: center;
+    color:white;  
+    padding: 5px 5px;
+    background-color: $blue;
+    border-radius: 50px;
+    height: 55px;
+    width: 55px;
+    font-size: 30px;
+  }
+a {
+  margin-right: 10px;
+  vertical-align: middle; 
+  text-align: center; 
+  text-decoration: none;
+}
+  i:hover {
+    opacity: 70%;
+  }
+}
+
+.sub-header {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-me-container {
+  display: flex;
+}
+
+.about-me-paragraph {
+  width: 55%;
+}
+
+.profile_img {
+  height: 100px;
+  width: 100px;
 }
