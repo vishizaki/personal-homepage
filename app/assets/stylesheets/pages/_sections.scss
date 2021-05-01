@@ -1,15 +1,15 @@
-.about-me-header{
+.section-header{
   margin: 0;
   position: absolute;
   top: 25%;
 }
 
-.about-me-container {
+.section-container {
   display: flex;
   justify-content: space-between;
 }
 
-.about-me-sub-header{
+.section-sub-header{
   margin-right: 100px;
 }
 
@@ -24,3 +24,12 @@
   border-radius: 10px;
 }
 
+.portfolio-bg {
+  background-color: #DFEDFF;
+}
+
+.paragraph-contact {
+  width: 60vw;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
