@@ -1,0 +1,26 @@
+.about-me-header{
+  margin: 0;
+  position: absolute;
+  top: 25%;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-sub-header{
+  margin-right: 100px;
+}
+
+.profile_img {
+  height: 400px;
+  width: 400px;
+  filter: grayscale(80%);
+  object-fit: cover;
+  // height: 75vh;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
