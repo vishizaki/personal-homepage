@@ -4,7 +4,7 @@
   <div class="main-container">
     <div class="home-header"> 
       <h1>Vinicius Y. Ishizaki</h1>
-      <h2>Product Management | Finance | Data Analytics</h2>
+      <h2 class="mb-5">Product Management | Finance | Data Analytics</h2>
       
     <%= render 'components/contact_me' %>  
     </div>
@@ -31,17 +31,15 @@
 
 <div class="portfolio-bg">
   <div class="main-container section-size" id="portfolio-section">
-    <div class="section-header">
-      <h2 class="sub-header">Portfolio</h2>
-
-
-
+    <div class="portfolio-header">
+      <h2 class="sub-header portfolio-subheader">Portfolio</h2>
+      <%= render 'components/project_grid' %>  
     </div>
   </div>
 </div>
 
 <div class="main-container section-size" id="contact-section">
-  <div class="section-header">
+  <div class="contact-header">
     <h2 class="sub-header" >Contact</h2>
     <p class="paragraph-contact">
       Let's connect to discuss projects, share knowledge, or even to grab a cup of coffee and talk about life!
@@ -49,21 +47,3 @@
     <%= render 'components/contact_me' %>  
   </div>
 </div>
-
-      <div class="cards">
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-          Breakfast
-        </div>
-
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
-          Lunch
-        </div>
-
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
-          Dinner
-        </div>
-        
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
-          Dinner
-        </div>
-      </div>
