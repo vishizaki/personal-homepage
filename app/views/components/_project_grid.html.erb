@@ -1,30 +1,77 @@
 <div class="cards">
-  <%= link_to "Sentiment Analysis", "https://github.com/vishizaki/sentiment-analysis-cnbc-bi", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/sentiment.png)", target: :_blank  %>
-
-  <%= link_to "PCA Analysis", "https://github.com/vishizaki/pca-analysis-survey", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/pca.png)", target: :_blank  %>
-
-  <%= link_to "Regression Analysis", "https://github.com/vishizaki/regression-analysis-apprentice-chef", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/regression.png)", target: :_blank  %>
-
-  <%= link_to "Classification Analysis", "https://github.com/vishizaki/classification-analysis-apprentice-chef", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/classification.png)", target: :_blank  %>  
-
-  <%= link_to "https://boomwriter.com", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/enerpel.png)", target: :_blank do %>
+  <%= link_to "https://github.com/vishizaki/sentiment-analysis-cnbc-bi", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(/assets/sentiment.png)", target: :_blank do %>
 
     <div id="card-hidden-title">
-      Redesigning whole EdTech Application
+      Sentiment Analysis
       <div id="card-hidden-text"><p class="hidden-p">
-        Ruby script to mine financial information of Brazilian Real Estate Investment Trust's
+        Sentiment Analysis for CNBC and Business Insider main articles. 
+        <br>
+        Stack: Ruby (web scrapping) and R (script).
         </p>
       </div>
     </div>
   <% end %>
 
 
-  <%= link_to "https://github.com/vishizaki/funds-explorer-mining", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/fe.png)", target: :_blank do %>
+  <%= link_to "https://github.com/vishizaki/pca-analysis-survey", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(/assets/pca.png)", target: :_blank do %>
+
+    <div id="card-hidden-title">
+      PCA Analysis
+      <div id="card-hidden-text"><p class="hidden-p">
+        PCA analysis to identify behavioral trends and customer clusters. 
+        <br>
+        Stack: Python (Jupyter Notebook)
+        </p>
+      </div>
+    </div>
+  <% end %>
+
+
+  <%= link_to "https://github.com/vishizaki/regression-analysis-apprentice-chef", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(/assets/regression.png)", target: :_blank do %>
+
+    <div id="card-hidden-title">
+      Regression Analysis
+      <div id="card-hidden-text"><p class="hidden-p">
+        Regression Analysis to gather insights using OLS, Lasso, KNN and ARD.
+        <br>
+        Stack: Python (Jupyter Notebook)
+        </p>
+      </div>
+    </div>
+  <% end %>
+
+  <%= link_to "https://github.com/vishizaki/classification-analysis-apprentice-chef", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(/assets/classification.png)", target: :_blank do %>
+
+    <div id="card-hidden-title">
+      Classification Analysis
+      <div id="card-hidden-text"><p class="hidden-p">
+        Classification Analysis using Logistic Regression, Trees, Random Forest and GBM, along with hyperparameter tuning.
+        <br>
+        Stack: Python (Jupyter Notebook)
+        </p>
+      </div>
+    </div>
+  <% end %>
+
+  <%= link_to "https://boomwriter.com", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(/assets/prot.png)", target: :_blank do %>
+
+    <div id="card-hidden-title">
+      Redesigning entire EdTech Application
+      <div id="card-hidden-text"><p class="hidden-p">
+        At Boomwriter we had the challenge to redesign the entire web application along with strategical changes to the operation.
+        </p>
+      </div>
+    </div>
+  <% end %>
+
+  <%= link_to "https://github.com/vishizaki/funds-explorer-mining", id:"card-title", class: "card-category", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(/assets/fe.png)", target: :_blank do %>
 
     <div id="card-hidden-title">
       Mining REIT's financial information
       <div id="card-hidden-text"><p class="hidden-p">
-        Ruby script to mine financial information of Brazilian Real Estate Investment Trust's
+        Ruby script to scrape financial information of Brazilian Real Estate Investment Trust's
+        <br>
+        Stack: Ruby
         </p>
       </div>
     </div>
